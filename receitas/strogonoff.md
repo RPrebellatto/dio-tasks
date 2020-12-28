@@ -1,5 +1,5 @@
-# **Strogonoff de Frango**
+# **Chicken Strogonoff**
 
-## Ingredientes
+## Ingredients
 
 - Chicken (Obviously)
