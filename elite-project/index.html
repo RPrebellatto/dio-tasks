@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="js/main.js"></script>
+<title>Memories Eternal</title>
+</head>
+<body>
+    <div class="elite-wrapper">
+        <p id="page-time"></p>
+        <header class="header-container">
+            <h1 class="header-title">Memories Eternal</h1>
+            <h2 class="header-subtitle">Those we will never forget.</h2>
+        </header>
+        <section class="section-container">
+            <nav class="clickers-container">
+                <select class="chars-select">
+                    <optgroup>
+                    <option>CHARACTERS</option>
+                    <option>Elros</option>
+                    <option>Ghanis</option>
+                    <option>Night</option>
+                    <option id="heiel-opt" onselect="getStory()">Heiel</option>
+                    </optgroup>
+                </select>
+                <button class="adventures-button">Travels</button>
+            </nav>
+            <section class="description-container">
+                <p id="charstory" onclick="getStory()">Infos</p>
+            </section>
+            <section class="question-container">
+                <p class="question-text">Which one would you choose?</p>
+                <p class="question-text">For which aventure?</p>
+                <p class="question-text">Why?</p>
+            </section>
+        </section>
+
+    </div>
+</body>
+</html>
