@@ -59,6 +59,9 @@ body{
 #page-time{
     color: black;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    display: flex;
+    align-items: flex-end;
 }
 .header-container{
     display: flex;
