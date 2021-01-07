@@ -18,17 +18,17 @@
             <nav class="clickers-container">
                 <select class="chars-select">
                     <optgroup>
-                    <option>CHARACTERS</option>
-                    <option>Elros</option>
-                    <option>Ghanis</option>
-                    <option>Night</option>
-                    <option id="heiel-opt" onselect="getStory()">Heiel</option>
+                    <option class="char-opt0" onselect="getStory(0)">CHARACTERS</option>
+                    <option class="char-opt1" onselect="getStory(1)">Heiel</option>
+                    <option class="char-opt2" onselect="getStory(2)">Elros</option>
+                    <option class="char-opt3" onselect="getStory(3)">Night</option>
+                    <option class="char-opt4" onselect="getStory(4)">Ghanis</option>
                     </optgroup>
                 </select>
-                <button class="adventures-button">Travels</button>
+               <!-- <button class="adventures-button">Travels</button> -->
             </nav>
             <section class="description-container">
-                <p id="charstory" onclick="getStory()">Infos</p>
+                <p id="charstory"></p>
             </section>
             <section class="question-container">
                 <p class="question-text">Which one would you choose?</p>
