@@ -16,25 +16,24 @@
         </header>
         <section class="section-container">
             <nav class="clickers-container">
-                <select class="chars-select">
+                <select id="chars-select" onchange="getStory()">
                     <optgroup>
-                    <option class="char-opt0" onselect="getStory(0)">CHARACTERS</option>
-                    <option class="char-opt1" onselect="getStory(1)">Heiel</option>
-                    <option class="char-opt2" onselect="getStory(2)">Elros</option>
-                    <option class="char-opt3" onselect="getStory(3)">Night</option>
-                    <option class="char-opt4" onselect="getStory(4)">Ghanis</option>
+                    <option class="char-opt0" value="0">CHARACTERS</option>
+                    <option class="char-opt1" value="1">Heiel</option>
+                    <option class="char-opt2" value="2">Elros</option>
+                    <option class="char-opt3" value="3">Night</option>
+                    <option class="char-opt4" value="4">Ghanis</option>
                     </optgroup>
                 </select>
-               <!-- <button class="adventures-button">Travels</button> -->
             </nav>
             <section class="description-container">
                 <p id="charstory"></p>
             </section>
-            <section class="question-container">
+        </section>
+        <section class="question-container">
                 <p class="question-text">Which one would you choose?</p>
                 <p class="question-text">For which aventure?</p>
                 <p class="question-text">Why?</p>
-            </section>
         </section>
 
     </div>

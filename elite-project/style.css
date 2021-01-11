@@ -103,17 +103,10 @@ body{
     justify-content: center;
     width: auto;
 }
-.chars-select{
+#chars-select{
     font-weight: 800;
     width: 45vw;
     height: 2rem;
-    border-radius: 4px;
-}
-.adventures-button{
-    background-color: black;
-    color: #ffffff;
-    height: 2rem;
-    width: 45vw;
     border-radius: 4px;
 }
 .description-container{
@@ -132,10 +125,40 @@ body{
     align-items: flex-start;
     justify-content: space-between;
     height: 7rem;
+    margin-left: 20vw;
 }
 .question-text{
     color: #ffffff;
 }
 .question-text:nth-child(3){
     font-weight: 900;
+}
+@media (min-width: 600px){
+    .section-container {
+        display: flex;
+        flex-direction: initial;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        width: auto;     
+    }
+    .question-container{
+        font-size: 24px;
+        height: 10rem;
+    }
+    #chars-select{
+        font-weight: 800;
+        width: 30vw;
+        height: 2rem;
+        border-radius: 4px;
+    }
+    .description-container{
+        display: flex;
+        width: 60vw;
+        min-height: 10vh;
+        border: 1px solid rgb(140, 140, 140);
+        border-radius: 4px;
+        background-color: #ffffff;
+        margin-bottom: 2rem;
+        color: black;
+    }
 }
