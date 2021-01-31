@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "2VGEgZRl+d3NJZB9I0De3WupwKIl9GOlvLiAEKcwrcgUa/3KD00K2vMybimG1XUzXp6jcDgkVatF1FNTJX6qtw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\ROGERIODEPAULAREBELL\\Codes\\workspace\\dio-tasks\\CursoMVC\\CursoTest\\CursoTest.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "O projeto CursoAPI não é compatível com netcoreapp3.1 (.NETCoreApp,Version=v3.1). O projeto CursoAPI dá suporte a: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "CursoAPI",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "O projeto CursoMVC não é compatível com netcoreapp3.1 (.NETCoreApp,Version=v3.1). O projeto CursoMVC dá suporte a: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "CursoMVC",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

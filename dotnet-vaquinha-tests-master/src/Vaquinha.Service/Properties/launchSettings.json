@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Vaquinha.Service": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\ROGERIODEPAULAREBELL\\Codes\\workspace\\dio-tasks\\dotnet-vaquinha-tests-master\\src\\Vaquinha.MVC\\bin",
+      "remoteDebugEnabled": false
+    }
+  }
+}
